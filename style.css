@@ -185,3 +185,61 @@ input[type="checkbox"] {
     color: #9ca3af;
     transition: all 0.3s ease;
 }
+
+/* Media Queries para hacerlo responsive */
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1.5rem;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    input[type="text"] {
+        padding: 0.8rem 1rem;
+    }
+
+    .botones {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    .botones button {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+
+    li {
+        padding: 0.8rem;
+        margin-bottom: 0.6rem;
+    }
+
+    .tarea-item span {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 1rem;
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .botones button {
+        font-size: 0.8rem;
+    }
+
+    .tarea-item span {
+        font-size: 0.9rem;
+    }
+
+    li {
+        padding: 0.6rem;
+    }
+}
